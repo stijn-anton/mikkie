@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: #ffffff;
+}
+:root {
+    --modal-duration: 1s;
+}
+
+@font-face {
+    font-family: 'dinlight';
+    src: url('../LT/din_light_regular-webfont.woff2') format('woff2'),
+         url('../LT/din_light_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sans_condensedlight';
+    src: url('../LT/opensanscondensed-light-webfont.woff2') format('woff2'),
+         url('../LT/opensanscondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+
+@font-face {
+    font-family: 'marzo';
+    src: url('../LT/1e6ec96c95301fa73aa1d026f161a269.woff2') format('woff2'),
+         url('../LT/1e6ec96c95301fa73aa1d026f161a269.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ///////////// Products ///////////// */
+
+.page{
+    padding: 50px;
+}
+
+.page h1{
+    color: black;
+    margin-left: 10%;
+}
+
+.question {
+    background-color: #f5f5f5;
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question h1 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.question p {
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
