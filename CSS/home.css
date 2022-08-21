@@ -86,7 +86,7 @@
 .product{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
     width: 300px;
-    height: 400px;
+    height: 465px;
 }
 
 .product img{
@@ -130,6 +130,14 @@
     color: black;
     font-family: 'dinlight';
     margin-bottom: 20px;
+}
+
+.price{
+    margin-left: 10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'dinlight';
+    margin-bottom: 25px;
 }
 
 .product a{
