@@ -79,13 +79,6 @@
     }
 }
 
-.products p{
-    color: gray;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
 .grid-container{
     margin-top: 40px
 }
@@ -93,7 +86,7 @@
 .product{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
     width: 300px;
-    height: 400px;
+    height: 465px;
 }
 
 .product img{
@@ -110,6 +103,10 @@
     width: 280px;
     height: 280px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+}
+
+.notoutoffstock{
+    display: none;
 }
 
 .outoffstock{
@@ -133,6 +130,14 @@
     color: black;
     font-family: 'dinlight';
     margin-bottom: 20px;
+}
+
+.price{
+    margin-left: 10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'dinlight';
+    margin-bottom: 25px;
 }
 
 .product a{
